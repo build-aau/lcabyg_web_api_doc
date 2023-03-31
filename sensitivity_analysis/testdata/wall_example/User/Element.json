@@ -1,0 +1,68 @@
+[
+  {
+    "Node": {
+      "Element": {
+        "id": "654d4204-990f-4b34-a74d-47e87bcd0d16",
+        "name": {
+          "English": "Wall",
+          "Danish": "Lærkes Væg",
+          "German": ""
+        },
+        "source": "User",
+        "comment": {
+          "Norwegian": "",
+          "Danish": "",
+          "German": "",
+          "English": ""
+        },
+        "enabled": true,
+        "excluded_scenarios": []
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "c77d73d4-0a5b-4d52-8ae8-fd97a5e52c84",
+          "amount": 59.9,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "654d4204-990f-4b34-a74d-47e87bcd0d16",
+      "87b56a2a-a586-4c92-87b8-e0cb99f14b40"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "7b13cc3b-ef12-42c8-acef-95252bd22d17",
+          "amount": 59.9,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "654d4204-990f-4b34-a74d-47e87bcd0d16",
+      "ca837bf0-0d8a-41ab-b038-f8189ef1b4a0"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ElementToConstruction": {
+          "id": "8c132f24-40bf-4e5e-83b8-e143871b4346",
+          "amount": 59.9,
+          "enabled": true,
+          "special_conditions": false,
+          "excluded_scenarios": []
+        }
+      },
+      "654d4204-990f-4b34-a74d-47e87bcd0d16",
+      "172e1e01-8954-45fa-ae26-cfb8b34661f1"
+    ]
+  }
+]

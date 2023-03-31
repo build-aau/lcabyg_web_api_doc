@@ -1,0 +1,178 @@
+[
+  {
+    "Node": {
+      "Construction": {
+        "id": "87b56a2a-a586-4c92-87b8-e0cb99f14b40",
+        "name": {
+          "Danish": "Midterdel, træelement, mineraluld",
+          "English": "Middle layer, wood construction, mineral wool"
+        },
+        "unit": "M2",
+        "source": "User",
+        "comment": {
+          "Danish": "Træelement med mineraluld består af et lag med træstolper (45/245 mm pr 600 mm) med top of bundrem (45/245 mm) med 245 mm mineraluldsmåtte (lambda 34, 30 kg/m2). Herpå opsættes dampspærre og et lag med trælægter (45/70 mm pr 600 mm) med 70 mm mineralduldsisoleing (lambda 34, 50 kg/m3).",
+          "English": "Wood frame construction with mineral wool consists of a layer of wood columns (45/245 mm per 600 mm) and top- and bottom beam (45/245 mm) with 245 mm mineral wool batts (lambda 34, 30 kg/m2). Vapour barrier is inserted and a layer of wood beams (45/70 mm per 600 mm) with 70 mm mineral wool insulation (lambda 34, 50 kg/m3) is attached."
+        },
+        "layer": 2,
+        "locked": true
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ConstructionToProduct": {
+          "id": "270958cc-0143-4436-8496-f65e1396010e",
+          "amount": 0.02424735,
+          "unit": "M3",
+          "lifespan": 120,
+          "demolition": false,
+          "enabled": true,
+          "delayed_start": 0
+        }
+      },
+      "87b56a2a-a586-4c92-87b8-e0cb99f14b40",
+      "d46da4f1-8ceb-5c1e-9368-958bf9ad844f"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ConstructionToProduct": {
+          "id": "41b9cd9f-9afa-47a6-bfec-ba47852be267",
+          "amount": 0.162,
+          "unit": "KG",
+          "lifespan": 80,
+          "demolition": false,
+          "enabled": true,
+          "delayed_start": 0
+        }
+      },
+      "87b56a2a-a586-4c92-87b8-e0cb99f14b40",
+      "e404aab3-95b9-5cf1-819c-6812b9f536eb"
+    ]
+  },
+  {
+    "Node": {
+      "Construction": {
+        "id": "ca837bf0-0d8a-41ab-b038-f8189ef1b4a0",
+        "name": {
+          "Danish": "Yderside, Teglsten, formur",
+          "English": "Exterior wall surface, bricks, front wall"
+        },
+        "unit": "M2",
+        "source": "User",
+        "comment": {
+          "Danish": "Formur består af 108 mm facademursten og funktionsmørtel (FM 5)",
+          "English": "Exterior wall surface consists of 108 mm brick cladding and mortar (FM 5)."
+        },
+        "layer": 3,
+        "locked": true
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ConstructionToProduct": {
+          "id": "e896dfba-b164-4690-a86f-0b321518e615",
+          "amount": 0.05751,
+          "unit": "M3",
+          "lifespan": 80,
+          "demolition": false,
+          "enabled": true,
+          "delayed_start": 0
+        }
+      },
+      "ca837bf0-0d8a-41ab-b038-f8189ef1b4a0",
+      "9ef81ae5-cc9c-5355-ab41-4d67bc093e00"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ConstructionToProduct": {
+          "id": "fb4f8310-4406-408b-8c42-9b1a178646b6",
+          "amount": 44.955000000000005,
+          "unit": "KG",
+          "lifespan": 80,
+          "demolition": false,
+          "enabled": true,
+          "delayed_start": 0
+        }
+      },
+      "ca837bf0-0d8a-41ab-b038-f8189ef1b4a0",
+      "35e71379-ee8b-569b-a2c0-2f8596c0631b"
+    ]
+  },
+  {
+    "Node": {
+      "Construction": {
+        "id": "172e1e01-8954-45fa-ae26-cfb8b34661f1",
+        "name": {
+          "Danish": "Vægside, malerbehandling, alkydmaling, fuldspartling",
+          "English": "Wall surface, painting, alkyd paint, full plastering"
+        },
+        "unit": "M2",
+        "source": "User",
+        "comment": {
+          "Danish": "Malerbehandling består af 2 lag alkydmaling ovenpå forankringsgrunder og cementbaseret spartelmasse (5 mm).",
+          "English": "Paint treatment consists of 2 layers of alkyd paint on top of primer and cement-based plaster (5 mm)."
+        },
+        "layer": 1,
+        "locked": true
+      }
+    }
+  },
+  {
+    "Edge": [
+      {
+        "ConstructionToProduct": {
+          "id": "c03ea189-6fdb-4b1e-a033-8bc7f83ebe09",
+          "amount": 0.3078,
+          "unit": "KG",
+          "lifespan": 15,
+          "demolition": false,
+          "enabled": true,
+          "delayed_start": 0
+        }
+      },
+      "172e1e01-8954-45fa-ae26-cfb8b34661f1",
+      "feeb3b0a-b190-5285-a8d1-153d24e22974"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ConstructionToProduct": {
+          "id": "01ec7cbb-6318-49b0-82bb-9d048843da20",
+          "amount": 0.1539,
+          "unit": "KG",
+          "lifespan": 15,
+          "demolition": false,
+          "enabled": true,
+          "delayed_start": 0
+        }
+      },
+      "172e1e01-8954-45fa-ae26-cfb8b34661f1",
+      "c55132d9-697e-5b62-a687-d8dffa6a9c31"
+    ]
+  },
+  {
+    "Edge": [
+      {
+        "ConstructionToProduct": {
+          "id": "158c06de-4a2e-4186-a108-1f14d0ab3b75",
+          "amount": 6.48,
+          "unit": "KG",
+          "lifespan": 80,
+          "demolition": false,
+          "enabled": true,
+          "delayed_start": 0
+        }
+      },
+      "172e1e01-8954-45fa-ae26-cfb8b34661f1",
+      "c496d531-3138-505a-b701-65081993a830"
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+uri;method;require_bearer_token;response;description
+https://api1.lcabyg.dk/v2/ping;GET;NO;'pong';
+https://api1.lcabyg.dk/v2/ping_secure;GET;YES;'pong secure';
+https://api1.lcabyg.dk/v2/login;POST;NO;Session token;Gets a new session token
+https://api1.lcabyg.dk/v2/jobs;GET;YES;List of job ids;
+https://api1.lcabyg.dk/v2/jobs;POST;YES;Job data;Add a new job
+https://api1.lcabyg.dk/v2/jobs/{job_id};GET;YES;Job data;
+https://api1.lcabyg.dk/v2/jobs/{job_id};DELETE;YES;-;Marks that the submitter is done with this job
+https://api1.lcabyg.dk/v2/jobs/{job_id}/input;GET;YES;Input data;
+https://api1.lcabyg.dk/v2/jobs/{job_id}/output;GET;YES;Output data;
+https://api1.lcabyg.dk/v2/account;GET;YES;Account data;Get account data for the current user

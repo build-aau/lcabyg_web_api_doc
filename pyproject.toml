@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "sbi-web-api-py"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "sbi_web_api_py"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.28.2"
+matplotlib = "^3.7.1"
+pyserde = "^0.10.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
