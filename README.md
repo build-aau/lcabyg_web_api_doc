@@ -12,6 +12,8 @@ Documentation, examples, and use cases of the LCAby Web API.
 
 Please be aware that the scope of underlying software architecture is broader than the LCAbyg Web API.
 
+Please note that the Python packages and example files provided were written using Python 3.10, and may not work on older versions of Python. 
+
 
 ### Installation
 1. Get a free API_KEY at [https://api.lcabyg.dk/](https://api.lcabyg.dk/ "https://api.lcabyg.dk/")
