@@ -8,7 +8,7 @@
 # LCAbyg Web API v.1.0 </div>
 
 ### About
-Documentation, examples, and use cases of the LCAby Web API.
+Documentation, examples, and use cases of the LCAbyG Web API.
 
 Please be aware that the scope of underlying software architecture is broader than the LCAbyg Web API.
 
